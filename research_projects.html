@@ -45,6 +45,38 @@
 <title>Research </title>
 </head>
 <body>
+
+
+
+
+
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+
+
+
+
+
+
+
+
+
 <table summary="Table for page layout." id="tlayout">
 <tr valign="top">
 <td id="layout-menu">
@@ -71,35 +103,35 @@
 </div>
 
 <h2>Adversarial Attacks on Deep Models</h2>
-<ul>
+
 <p>We built an attacker that could jeopardize the interpretation of deep reinforcement learning, and showed theoretically why this attacker is difficult to defend against.</p>
-</ul>
+
 
 <h2>Correlation Network: A Lightweight Booster for Extreme Multi-label Text Classifier</h2>
-<ul>
+
 <p>We proposed a correlation layer that could be easily added on top of any extreme multi-label text classifier while enhancing its prediction accuracy.</p>
-</ul>
+
 
 <h2>Multi-directional Attention Learning to Impute Multivariate Time Series</h2>
-<ul>
+
 <p>We proposed an attention-based framework that could effectively capture long-term dependencies between multivariate time series of varying missingness.</p>
-</ul>
+
 
 <h2>Spatial Temporal Analysis of Multi-Subject, Stimulus-evoked fMRI Data Modeling</h2>
-<ul>
+
 <p>We proposed a low rank multivariate General Linear Model for multi-subject stimulus-evoked fMRI data, implemented efficient optimization algorithm to estimate Hemodynamic Response Function (HRF) and to locate activated brain areas. (joint work with Department of Statistics & School of Medicine, University of Virginia)
 </p>
-</ul>
+
 
 <h2>Splicing of Multi-Scale &ldquo;Downscaler&rdquo; Air Quality Surfaces</h2>
-<ul>
+
 <p>We worked on a methodological framework for splicing NOAA regional estimates of &ldquo;Downscaler&rdquo;, EPA's air quality monitoring data fusion product, to create a smooth national surface. (joint work with US EPA)</p>  
-</ul>
+
 
 <h2>Mediation Process of Online Cognitive Bias Modification (CBM) Intervention for Patients with Negative Prospection</h2>
-<ul>
+
 <p>We applied parallel process latent growth curve modeling to study the mediation effect of psychological intervention on negative prospection. (joint work with Department of Psychology, University of Virginia)</p>  
-</ul>
+
 
 </td>
 </tr>
