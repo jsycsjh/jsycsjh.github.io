@@ -47,6 +47,30 @@ Email: js9gu@virginia.edu <br />
 I obtained my B.S. degree in Mathematics at Fudan University and I was in the PhD program in Department of Statistics at University of Virginia. <br />
 My research interests include a variety of topics in Machine Learning and Data Mining, including optimization, automated machine learning, and adversarial machine learning.</p>
 
+<!-- ========== RESUME ========== -->
+<div class="docs-section" id="resume">
+    <h4>Vitæ</h4>
+  
+    <!-- The Timeline -->
+    <ul class="timeline">
+      {% for exp in experience.experiences %}
+      <li>
+        {% if exp.category == "work" %}
+        <div class="direction-l">
+        {% else %}
+        <div class="direction-r">
+        {% endif %}
+          <div class="flag-wrapper">
+            <span class="flag">{{ exp.place }}</span>
+            <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
+          </div>
+          <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
 </td>
 </tr>
 </table>
