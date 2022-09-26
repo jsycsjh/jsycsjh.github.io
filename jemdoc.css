@@ -588,38 +588,38 @@ table.imgtable, table.imgtable td {
   
   @media screen and (max-width: 1000px) {
 	.timeline {
-	  width: 800px;
+	  width: 640px;
 	}
   
 	.direction-l {
 	  position: relative;
-	  width: 400px;
+	  width: 290px;
 	  float: left;
 	  text-align: right;
 	}
   
 	.direction-r {
 	  position: relative;
-	  width: 400px;
+	  width: 290px;
 	  float: right;
 	}
   }
   
   @media screen and (max-width: 800px) {
 	.timeline {
-	  width: 600px;
+	  width: 620px;
 	}
   
 	.direction-l {
 	  position: relative;
-	  width: 200px;
+	  width: 280px;
 	  float: left;
 	  text-align: right;
 	}
   
 	.direction-r {
 	  position: relative;
-	  width: 200px;
+	  width: 280px;
 	  float: right;
 	}
   }
@@ -720,7 +720,7 @@ table.imgtable, table.imgtable td {
 	}
   }
   
-  @media screen and (min-width: 400px ) {
+  @media screen and (min-width: 400px ?? max-width: 660px) {
 	.direction-l .desc,
 	.direction-r .desc {
 	  margin: 1em 4em 0 4em;
