@@ -588,7 +588,7 @@ table.imgtable, table.imgtable td {
   
   @media screen and (max-width: 1000px) {
 	.timeline {
-	  width: 640px;
+	  width: 800px;
 	}
   
 	.direction-l {
@@ -607,7 +607,7 @@ table.imgtable, table.imgtable td {
   
   @media screen and (max-width: 800px) {
 	.timeline {
-	  width: 620px;
+	  width: 700px;
 	}
   
 	.direction-l {
