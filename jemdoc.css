@@ -418,7 +418,7 @@ table.imgtable, table.imgtable td {
   
   .timeline {
 	position: relative;
-	width: 660px;
+	width: 800px;
 	margin: 0 auto;
 	margin-top: 20px;
 	padding: 1em 0;
@@ -459,16 +459,17 @@ table.imgtable, table.imgtable td {
   
   .direction-l {
 	position: relative;
-	width: 300px;
+	width: 370px;
 	float: left;
 	text-align: right;
   }
   
   .direction-r {
 	position: relative;
-	width: 300px;
+	width: 370px;
 	float: right;
   }
+  
   
   .flag-wrapper {
 	position: relative;
@@ -585,38 +586,76 @@ table.imgtable, table.imgtable td {
   
   /* ================ Timeline Media Queries ================ */
   
+  @media screen and (max-width: 1000px) {
+	.timeline {
+	  width: 640px;
+	}
+  
+	.direction-l {
+	  position: relative;
+	  width: 290px;
+	  float: left;
+	  text-align: right;
+	}
+  
+	.direction-r {
+	  position: relative;
+	  width: 290px;
+	  float: right;
+	}
+  }
+  
+  @media screen and (max-width: 800px) {
+	.timeline {
+	  width: 620px;
+	}
+  
+	.direction-l {
+	  position: relative;
+	  width: 280px;
+	  float: left;
+	  text-align: right;
+	}
+  
+	.direction-r {
+	  position: relative;
+	  width: 280px;
+	  float: right;
+	}
+  }
+  
   @media screen and (max-width: 660px) {
   
-  .timeline {
-	   width: 100%;
+	.timeline {
+	  width: 100%;
 	  padding: 4em 0 1em 0;
-  }
+	}
   
-  .timeline li {
+	.timeline li {
 	  padding: 2em 0;
-  }
+	}
   
-  .direction-l,
-  .direction-r {
+	.direction-l,
+	.direction-r {
 	  float: none;
 	  width: 100%;
   
 	  text-align: center;
-  }
+	}
   
-  .flag-wrapper {
+	.flag-wrapper {
 	  text-align: center;
-  }
+	}
   
-  .flag {
+	.flag {
 	  background: rgb(255,255,255);
 	  z-index: 15;
-  }
+	}
   
-  .direction-l .flag:before,
-  .direction-r .flag:before {
-	position: absolute;
-	top: -30px;
+	.direction-l .flag:before,
+	.direction-r .flag:before {
+	  position: absolute;
+	  top: -30px;
 	  left: 50%;
 	  content: ' ';
 	  display: block;
@@ -625,12 +664,12 @@ table.imgtable, table.imgtable td {
 	  margin-left: -9px;
 	  background: #fff;
 	  border-radius: 10px;
-	  border: 4px solid rgb(255,80,80);
+	  border: 4px solid rgb(153, 11, 60);
 	  z-index: 10;
-  }
+	}
   
-  .direction-l .flag:after,
-  .direction-r .flag:after {
+	.direction-l .flag:after,
+	.direction-r .flag:after {
 	  content: "";
 	  position: absolute;
 	  left: 50%;
@@ -642,24 +681,24 @@ table.imgtable, table.imgtable td {
 	  border-bottom-color: rgb(255,255,255);
 	  border-width: 8px;
 	  pointer-events: none;
-  }
+	}
   
-  .time-wrapper {
+	.time-wrapper {
 	  display: block;
 	  position: relative;
 	  margin: 4px 0 0 0;
 	  z-index: 14;
-  }
+	}
   
-  .direction-l .time-wrapper {
+	.direction-l .time-wrapper {
 	  float: none;
-  }
+	}
   
-  .direction-r .time-wrapper {
+	.direction-r .time-wrapper {
 	  float: none;
-  }
+	}
   
-  .desc {
+	.desc {
 	  position: relative;
 	  margin: 1em 0 0 0;
 	  padding: 1em;
@@ -668,91 +707,22 @@ table.imgtable, table.imgtable td {
 	  -moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
 	  box-shadow: 0 0 1px rgba(0,0,0,0.20);
 	  
-	z-index: 15;
-  }
+	  z-index: 15;
+	}
   
-  .direction-l .desc,
-  .direction-r .desc {
+	.direction-l .desc,
+	.direction-r .desc {
 	  position: relative;
 	  margin: 1em 1em 0 1em;
 	  padding: 1em;
 	  
-	z-index: 15;
-  }
-  
+	  z-index: 15;
+	}
   }
   
   @media screen and (min-width: 400px ) {
-  
-  .direction-l .desc,
-  .direction-r .desc {
+	.direction-l .desc,
+	.direction-r .desc {
 	  margin: 1em 4em 0 4em;
-  }
-  
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* Style the button that is used to open and close the collapsible content */
-.collapsible {
-	background-color: #eee;
-	color: #444;
-	cursor: pointer;
-	padding: 18px;
-	width: 100%;
-	border: none;
-	text-align: left;
-	outline: none;
-	font-size: 15px;
-  }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .collapsible:hover {
-	background-color: #ccc;
-  }
-  
-  /* Style the collapsible content. Note: hidden by default */
-  .content {
-	padding: 0 18px;
-	display: none;
-	overflow: hidden;
-	background-color: #f1f1f1;
-  }
-
-
-  .content {
-	padding: 0 18px;
-	background-color: white;
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.2s ease-out;
-  }
-
-
-  .collapsible:after {
-	content: '\02795'; /* Unicode character for "plus" sign (+) */
-	font-size: 13px;
-	color: white;
-	float: right;
-	margin-left: 5px;
-  }
-  
-  .active:after {
-	content: "\2796"; /* Unicode character for "minus" sign (-) */
+	}
   }
