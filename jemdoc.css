@@ -593,14 +593,14 @@ table.imgtable, table.imgtable td {
   
 	.direction-l {
 	  position: relative;
-	  width: 320px;
+	  width: 400px;
 	  float: left;
 	  text-align: right;
 	}
   
 	.direction-r {
 	  position: relative;
-	  width: 320px;
+	  width: 400px;
 	  float: right;
 	}
   }
@@ -612,14 +612,14 @@ table.imgtable, table.imgtable td {
   
 	.direction-l {
 	  position: relative;
-	  width: 310px;
+	  width: 400px;
 	  float: left;
 	  text-align: right;
 	}
   
 	.direction-r {
 	  position: relative;
-	  width: 310px;
+	  width: 400px;
 	  float: right;
 	}
   }
