@@ -414,7 +414,6 @@ table.imgtable, table.imgtable td {
 	background: none;
   }
   
-  
   .flag-wrapper {
 	display: flex;
 	align-items: center;
@@ -479,12 +478,18 @@ table.imgtable, table.imgtable td {
 	line-height: 1.5em;
   }
   
+  /* Remove the border for even-indexed items */
+  .timeline li:nth-child(even) {
+	border-left: none;
+  }
+  
   /* Responsive Styles */
   @media screen and (max-width: 800px) {
 	.timeline li::before {
 	  left: 20px;
 	}
   }
+  
   
   
   
