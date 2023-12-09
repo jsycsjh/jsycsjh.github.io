@@ -460,6 +460,7 @@ table.imgtable, table.imgtable td {
     z-index: 1;
     text-align: center;
     flex: 1;
+    line-height: 1.2; /* Adjusted line-height */
 }
 
 .time {
@@ -475,7 +476,6 @@ table.imgtable, table.imgtable td {
 .desc {
     font-size: 0.77777em;
     font-style: italic;
-    line-height: 1.5em;
 }
 
 /* Responsive Styles */
@@ -484,6 +484,7 @@ table.imgtable, table.imgtable td {
         left: 20px;
     }
 }
+
 
   
   
