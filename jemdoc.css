@@ -383,7 +383,7 @@ table.imgtable, table.imgtable td {
   
   /* ================ The Timeline ================ */
 
-  /* Timeline Styles */
+/* Timeline Styles */
 .timeline {
     position: relative;
     width: 100%;
@@ -394,8 +394,8 @@ table.imgtable, table.imgtable td {
 }
 
 .timeline li {
-    display: flex; /* Display flag and desc in a row */
-    flex-direction: column; /* Display flag and desc in a column */
+    display: flex;
+    flex-direction: column;
     position: relative;
     padding: 20px 0;
 }
@@ -413,7 +413,7 @@ table.imgtable, table.imgtable td {
 }
 
 .flag-wrapper {
-    flex: 1; /* Take full width */
+    flex: 1;
 }
 
 .flag {
@@ -455,11 +455,11 @@ table.imgtable, table.imgtable td {
     background: rgb(248, 248, 248);
     padding: 10px;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 5px; /* Adjusted margin-top */
     position: relative;
     z-index: 1;
     text-align: center;
-    flex: 1; /* Take full width */
+    flex: 1;
 }
 
 .time {
@@ -468,8 +468,8 @@ table.imgtable, table.imgtable td {
 }
 
 .desc b {
-    display: block; /* Display the job title as a block element */
-    margin-bottom: 5px; /* Add some space below the job title */
+    display: block;
+    margin-bottom: 5px;
 }
 
 .desc {
@@ -485,8 +485,6 @@ table.imgtable, table.imgtable td {
     }
 }
 
-  
-  
   
   
   
