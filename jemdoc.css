@@ -383,21 +383,6 @@ table.imgtable, table.imgtable td {
   
   /* ================ The Timeline ================ */
 
-/* Timeline Styles */
-.timeline {
-	position: relative;
-	width: 100%;
-	max-width: 800px;
-	margin: 20px auto;
-	padding: 1em 0;
-	list-style-type: none;
-  }
-  
-  .timeline li {
-	position: relative;
-	padding: 20px 0;
-  }
-  
   .timeline li::before {
 	content: '';
 	position: absolute;
@@ -410,19 +395,13 @@ table.imgtable, table.imgtable td {
 	z-index: 5;
   }
   
-  .flag-wrapper {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-  }
-  
   .flag {
 	display: inline-block;
 	background: rgb(248, 248, 248);
 	padding: 10px;
 	border-radius: 50%;
 	font-weight: 600;
-	text-align: left;
+	text-align: center; /* Center the text */
 	position: relative;
 	z-index: 10;
   }
@@ -434,51 +413,30 @@ table.imgtable, table.imgtable td {
 	left: 50%;
 	width: 6px;
 	height: 100%;
-	background: rgb(80, 80, 80);
+	background: none; /* Remove the vertical line */
 	z-index: 5;
   }
   
-  .flag:after {
+  .timeline li::before {
 	content: '';
 	position: absolute;
-	top: 50%;
-	left: -20px;
-	width: 12px;
-	height: 12px;
-	margin-top: -10px;
-	background: #fff;
-	border-radius: 50%;
-	border: 4px solid rgb(255, 80, 80);
-	z-index: 15;
-  }
-  
-  .time,
-  .desc {
-	background: rgb(248, 248, 248);
-	padding: 10px;
-	border-radius: 5px;
-	margin-top: 10px;
-	position: relative;
-	z-index: 1;
-  }
-  
-  .time {
-	font-size: 0.66666em;
-	color: rgb(250, 80, 80);
+	left: 50%;
+	top: 0;
+	width: 6px;
+	height: 100%;
+	margin-left: -3px;
+	background: linear-gradient(to bottom, rgba(80, 80, 80, 0) 0%, rgb(80, 80, 80) 8%, rgb(80, 80, 80) 92%, rgba(80, 80, 80, 0) 100%);
+	z-index: 5;
+	background: linear-gradient(to bottom, rgba(80, 80, 80, 0) 0%, rgb(80, 80, 80) 8%, rgb(80, 80, 80) 92%, rgba(80, 80, 80, 0) 100%);
   }
   
   .desc {
 	font-size: 0.77777em;
 	font-style: italic;
 	line-height: 1.5em;
+	text-align: center; /* Center the text */
   }
   
-  /* Responsive Styles */
-  @media screen and (max-width: 800px) {
-	.timeline li::before {
-	  left: 20px;
-	}
-  }
   
   
   
