@@ -778,3 +778,13 @@ table.imgtable, table.imgtable td {
   .toggle_collapse:checked + * + label:after {
    content:"\25B2";
   }
+
+  .timeline {
+	display: flex;
+	flex-direction: column;
+  }
+
+  .desc, .flag, .time {
+	font-size: 16px; /* Adjust as needed */
+	line-height: 1.5;
+  }
