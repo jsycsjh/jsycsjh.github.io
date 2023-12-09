@@ -726,21 +726,28 @@ table.imgtable, table.imgtable td {
 	}
   }
 
-
-  /* Adjustments for 800px screen width */
+/* Adjustments for 800px screen width */
 @media screen and (max-width: 800px) {
 	.timeline {
-	  width: 70%;
+	  width: 100%;
+	  padding: 2em 0;
 	}
   
 	.direction-l, .direction-r {
-	  width: 40%;
+	  width: 100%;
+	  float: none;
+	  text-align: center;
+	}
+  
+	.flag-wrapper {
+	  text-align: center;
 	}
   
 	.timeline li {
 	  padding: 1.5em 0;
 	}
-  }  
+  }
+  
   
   /* Adjustments for 660px screen width */
   @media screen and (max-width: 660px) {
