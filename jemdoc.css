@@ -431,6 +431,12 @@ table.imgtable, table.imgtable td {
 	position: relative;
   }
   
+  .flag-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
   .flag {
 	display: inline-block;
 	background: rgb(248, 248, 248);
@@ -446,6 +452,17 @@ table.imgtable, table.imgtable td {
   .flag:before {
 	content: '';
 	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 6px;
+	height: 100%;
+	background: rgb(80, 80, 80);
+	z-index: 5;
+  }
+  
+  .flag:after {
+	content: '';
+	position: absolute;
 	top: 50%;
 	left: -20px;
 	width: 12px;
@@ -454,17 +471,6 @@ table.imgtable, table.imgtable td {
 	background: #fff;
 	border-radius: 50%;
 	border: 4px solid rgb(255, 80, 80);
-  }
-  
-  .flag:after {
-	content: "";
-	position: absolute;
-	left: 50%;
-	top: 0;
-	height: 100%; /* Updated to cover the entire height */
-	width: 6px;
-	background: rgb(80, 80, 80);
-	z-index: 5;
   }
   
   .time, .desc {
