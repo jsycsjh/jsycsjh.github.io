@@ -482,12 +482,7 @@ table.imgtable, table.imgtable td {
 	line-height: 1.5em;
   }
   
-  /* Responsive Styles */
-  @media screen and (max-width: 800px) {
-	.timeline:before {
-	  left: 20px;
-	}
-  }
+  
   
   
   
