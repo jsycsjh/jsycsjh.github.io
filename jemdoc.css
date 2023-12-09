@@ -573,7 +573,7 @@ table.imgtable, table.imgtable td {
   
   /* ================ Timeline Media Queries ================ */
   
-  @media screen and (max-width: 1000px) {
+  /* @media screen and (max-width: 1000px) {
 	.timeline {
 	  width: 640px;
 	}
@@ -705,7 +705,78 @@ table.imgtable, table.imgtable td {
 	  
 	  z-index: 15;
 	}
+  } */
+
+
+
+
+
+  /* Adjustments for 1000px screen width */
+@media screen and (max-width: 1000px) {
+	.timeline {
+	  width: 80%;
+	}
+  
+	.direction-l, .direction-r {
+	  width: 45%;
+	}
+  
+	.timeline li {
+	  padding: 1.5em 0;
+	}
   }
+
+
+  /* Adjustments for 800px screen width */
+@media screen and (max-width: 800px) {
+	.timeline {
+	  width: 70%;
+	}
+  
+	.direction-l, .direction-r {
+	  width: 40%;
+	}
+  
+	.timeline li {
+	  padding: 1.5em 0;
+	}
+  }  
+  
+  /* Adjustments for 660px screen width */
+  @media screen and (max-width: 660px) {
+	.timeline {
+	  width: 100%;
+	  padding: 4em 0 1em 0;
+	}
+  
+	.timeline li {
+	  padding: 1.5em 0;
+	}
+  
+	.direction-l, .direction-r {
+	  float: none;
+	  width: 100%;
+	  text-align: center;
+	}
+  
+	.flag-wrapper {
+	  text-align: center;
+	}
+  
+	.desc, .flag, .time {
+	  margin: 0.5em 0;
+	}
+  
+	.desc, .flag, .time {
+	  font-size: 14px; /* Adjust as needed */
+	}
+  }
+
+
+
+
+
+
 
 
 
