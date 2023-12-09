@@ -473,6 +473,25 @@ table.imgtable, table.imgtable td {
     margin-bottom: 5px;
 }
 
+.desc p {
+    margin: 5px 0; /* Adjusted margin */
+}
+
+.desc {
+    font-size: 0.77777em;
+    font-style: italic;
+}
+
+.time {
+    font-size: 0.66666em;
+    color: rgb(250, 80, 80);
+}
+
+.desc b {
+    display: block;
+    margin-bottom: 5px;
+}
+
 .desc {
     font-size: 0.77777em;
     font-style: italic;
