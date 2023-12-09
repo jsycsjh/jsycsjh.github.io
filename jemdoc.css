@@ -370,26 +370,6 @@ table.imgtable, table.imgtable td {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   body {	
 	margin: 0;
 	padding: 0;
@@ -471,6 +451,7 @@ table.imgtable, table.imgtable td {
 	background: #fff;
 	border-radius: 50%;
 	border: 4px solid rgb(255, 80, 80);
+	z-index: 15; /* Ensure the circle is above the line */
   }
   
   .time, .desc {
@@ -499,6 +480,7 @@ table.imgtable, table.imgtable td {
 	  left: 20px;
 	}
   }
+  
   
   
   
