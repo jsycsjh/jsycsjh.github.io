@@ -719,6 +719,37 @@ table.imgtable, table.imgtable td {
 	  z-index: 15;
 	}
   }
+
+  @media screen and (max-width: 480px) {
+	.timeline {
+	  width: 100%;
+	}
+  }
+
+  @media screen and (max-width: 480px) {
+	.desc, .flag, .time {
+	  font-size: 14px; /* Adjust as needed */
+	}
+  }
+
+  @media screen and (max-width: 480px) {
+	.direction-l, .direction-r {
+	  width: 100%;
+	  float: none;
+	  text-align: center;
+	}
+  
+	.flag-wrapper {
+	  text-align: center;
+	}
+  }
+
+  @media screen and (max-width: 480px) {
+	.desc, .flag, .time {
+	  margin: 0.5em 0;
+	}
+  }
+  
   
   @media screen and (min-width: 400px ) {
 	.direction-l .desc,
