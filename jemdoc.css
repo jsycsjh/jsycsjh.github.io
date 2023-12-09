@@ -713,13 +713,15 @@ table.imgtable, table.imgtable td {
 
   /* Adjustments for 1000px screen width */
 /* Responsive Styles */
-@media screen and (max-width: 480px) {
+/* Responsive Styles */
+@media screen and (max-width: 800px) {
 	.timeline {
 	  width: 100%;
 	  padding: 2em 0;
 	}
   
-	.direction-l, .direction-r {
+	.direction-l,
+	.direction-r {
 	  width: 100%;
 	  float: none;
 	  text-align: center;
@@ -732,63 +734,22 @@ table.imgtable, table.imgtable td {
 	.timeline li {
 	  padding: 1.5em 0;
 	}
+  }
   
-	.desc, .flag, .time {
+  @media screen and (max-width: 480px) {
+	.timeline {
+	  width: 100%;
+	  padding: 2em 0;
+	}
+  
+	.desc,
+	.flag,
+	.time {
 	  font-size: 14px;
 	  margin: 0.5em 0;
 	}
   }
   
-  @media screen and (min-width: 481px) and (max-width: 1000px) {
-	.timeline {
-	  width: 70%;
-	  padding: 2em 0;
-	}
-  
-	.direction-l, .direction-r {
-	  width: 40%;
-	}
-  
-	.timeline li {
-	  padding: 1.5em 0;
-	}
-  }
-  
-  @media screen and (min-width: 1001px) and (max-width: 660px) {
-	.timeline {
-	  width: 80%;
-	  padding: 2em 0;
-	}
-  
-	.direction-l, .direction-r {
-	  width: 45%;
-	}
-  
-	.timeline li {
-	  padding: 1.5em 0;
-	}
-  }
-  
-  @media screen and (min-width: 661px) and (max-width: 800px) {
-	.timeline {
-	  width: 100%;
-	  padding: 2em 0;
-	}
-  
-	.direction-l, .direction-r {
-	  width: 100%;
-	  float: none;
-	  text-align: center;
-	}
-  
-	.flag-wrapper {
-	  text-align: center;
-	}
-  
-	.timeline li {
-	  padding: 1.5em 0;
-	}
-  }
   
 
 
