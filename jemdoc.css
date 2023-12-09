@@ -586,7 +586,7 @@ table.imgtable, table.imgtable td {
   
   /* ================ Timeline Media Queries ================ */
   
-  /* @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1000px) {
 	.timeline {
 	  width: 640px;
 	}
@@ -718,99 +718,9 @@ table.imgtable, table.imgtable td {
 	  
 	  z-index: 15;
 	}
-  } */
-
-
-  @media screen and (max-width: 1000px) {
-	.timeline {
-	  width: 100%;
-	}
-  }
-
-  @media screen and (max-width: 1000px) {
-	.desc, .flag, .time {
-	  font-size: 14px; /* Adjust as needed */
-	}
-  }
-
-  @media screen and (max-width: 1000px) {
-	.direction-l, .direction-r {
-	  width: 100%;
-	  float: none;
-	  text-align: center;
-	}
-  
-	.flag-wrapper {
-	  text-align: center;
-	}
-  }
-
-  @media screen and (max-width: 1000px) {
-	.desc, .flag, .time {
-	  margin: 0.5em 0;
-	}
-  }
-
-  @media screen and (max-width: 800px) {
-	.timeline {
-	  width: 100%;
-	}
-  }
-
-  @media screen and (max-width: 800px) {
-	.desc, .flag, .time {
-	  font-size: 14px; /* Adjust as needed */
-	}
-  }
-
-  @media screen and (max-width: 800px) {
-	.direction-l, .direction-r {
-	  width: 100%;
-	  float: none;
-	  text-align: center;
-	}
-  
-	.flag-wrapper {
-	  text-align: center;
-	}
-  }
-
-  @media screen and (max-width: 800px) {
-	.desc, .flag, .time {
-	  margin: 0.5em 0;
-	}
   }
 
 
-  @media screen and (max-width: 660px) {
-	.timeline {
-	  width: 100%;
-	}
-  }
-
-  @media screen and (max-width: 660px) {
-	.desc, .flag, .time {
-	  font-size: 14px; /* Adjust as needed */
-	}
-  }
-
-  @media screen and (max-width: 660px) {
-	.direction-l, .direction-r {
-	  width: 100%;
-	  float: none;
-	  text-align: center;
-	}
-  
-	.flag-wrapper {
-	  text-align: center;
-	}
-  }
-
-  @media screen and (max-width: 660px) {
-	.desc, .flag, .time {
-	  margin: 0.5em 0;
-	}
-  }
 
 
   @media screen and (max-width: 480px) {
