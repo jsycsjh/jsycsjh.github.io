@@ -410,6 +410,11 @@ table.imgtable, table.imgtable td {
 	z-index: 5;
   }
   
+  .timeline li:nth-child(odd)::before {
+	background: none;
+  }
+  
+  
   .flag-wrapper {
 	display: flex;
 	align-items: center;
