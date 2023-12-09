@@ -784,7 +784,4 @@ table.imgtable, table.imgtable td {
 	flex-direction: column;
   }
 
-  .desc, .flag, .time {
-	font-size: 16px; /* Adjust as needed */
-	line-height: 1.5;
-  }
+  
