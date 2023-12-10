@@ -64,15 +64,8 @@ title: Home
           <!-- <h6 class="title"><b>{{ paper.title }}</b></h6> -->
           <p class="title"><b>{{ paper.title }}</b></p>
           <div class="authors">
-            {% for author in paper.authors %}
-              {% if author.link %}
-                <a href="{{ author.link }}" target="_blank">{{ author.name }}</a>
-              {% else %}
-                {{ author.name }}
-              {% endif %}
-              {% unless forloop.last %}{% endunless %}{% if forloop.last %}{% else %}, {% endif %}
-            {% endfor %}
-          </div>          
+            {% for author in paper.authors %}{% if author.link %}<a href="{{ author.link }}" target="_blank">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}
+          </div>         
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
             {% if paper.paper_pdf %}
