@@ -1,5 +1,18 @@
 papers:
 
+- title: "On the Role of Server Momentum in Federated Learning"
+  authors:
+    - name: "<b>Jianhui Sun*</b>"
+      link: ""
+    - name: "Xidong Wu*"
+      link: "https://scholar.google.com/citations?user=rj21L7sAAAAJ&hl=en&oi=ao"
+    - name: "Heng Huang"
+      link: "http://www.cs.umd.edu/~heng/"
+    - name: "Aidong Zhang"
+      link: "https://engineering.virginia.edu/faculty/aidong-zhang"
+  venue: "<b>AAAI'24</b>: AAAI Conference on Artificial Intelligence. 2024."
+  selected: y
+
 - title: "Solving a Class of Non-Convex Minimax Optimization in Federated Learning"
   authors:
     - name: "Xidong Wu*"
