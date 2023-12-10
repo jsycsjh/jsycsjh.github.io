@@ -2,9 +2,9 @@ papers:
 
 - title: "On the Role of Server Momentum in Federated Learning"
   authors:
-    - name: "<b>Jianhui Sun*</b>"
+    - name: "<b>Jianhui Sun<sup>‡</sup></b>"
       link: ""
-    - name: "Xidong Wu*"
+    - name: "Xidong Wu<sup>‡</sup>"
       link: "https://scholar.google.com/citations?user=rj21L7sAAAAJ&hl=en&oi=ao"
     - name: "Heng Huang"
       link: "http://www.cs.umd.edu/~heng/"
@@ -15,9 +15,9 @@ papers:
 
 - title: "Solving a Class of Non-Convex Minimax Optimization in Federated Learning"
   authors:
-    - name: "Xidong Wu*"
+    - name: "Xidong Wu<sup>‡</sup>"
       link: "https://scholar.google.com/citations?user=rj21L7sAAAAJ&hl=en&oi=ao"
-    - name: "<b>Jianhui Sun*</b>"
+    - name: "<b>Jianhui Sun<sup>‡</sup></b>"
       link: ""
     - name: "Zhengmian Hu"
       link: "https://scholar.google.com/citations?user=4eXiWWgAAAAJ&hl=en"
@@ -31,9 +31,9 @@ papers:
 
 - title: "Federated Conditional Stochastic Optimization"
   authors:
-    - name: "Xidong Wu*"
+    - name: "Xidong Wu<sup>‡</sup>"
       link: "https://scholar.google.com/citations?user=rj21L7sAAAAJ&hl=en&oi=ao"
-    - name: "<b>Jianhui Sun*</b>"
+    - name: "<b>Jianhui Sun<sup>‡</sup></b>"
       link: ""
     - name: "Zhengmian Hu"
       link: "https://scholar.google.com/citations?user=4eXiWWgAAAAJ&hl=en"
