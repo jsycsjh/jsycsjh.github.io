@@ -2,38 +2,53 @@
 layout: default
 title: Home
 ---
+
+
+
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
-  <h4>Bio</h4>
+  <h3><b>Bio</b></h3>
     
-  <p>I am a Ph.D. student in Department of Computer Science at University of Virginia, advised by Prof. <a href="https://engineering.virginia.edu/faculty/aidong-zhang">Aidong Zhang</a>. <br />
-    I obtained my B.S. degree in Mathematics at Fudan University and I was in the PhD program in Department of Statistics at University of Virginia. <br />
-    My research interests include a variety of topics in Machine Learning and Data Mining, including optimization, federated learning, AutoML, and adversarial attacks.</p>
+  <p>I am a Ph.D. student in Department of Computer Science at University of Virginia, advised by Prof. <a href="https://engineering.virginia.edu/faculty/aidong-zhang">Aidong Zhang</a>. </p>
+    <p> I obtained my B.S. degree in Mathematics at Fudan University and I was in the PhD program in Department of Statistics at University of Virginia. I spent summers doing internships in Meta and Amazon.</p>
+      <p>My research covers a variety of topics in Machine Learning and Data Mining, including federated learning [<a href="https://arxiv.org/abs/2310.03613">NeurIPS'23</a>, <a href="https://arxiv.org/abs/2310.02524">NeurIPS'23</a>], AutoML [<a href="https://dl.acm.org/doi/10.1145/3544782">TKDD'23</a>, <a href="https://dl.acm.org/doi/abs/10.1145/3534678.3539298">KDD'22</a>, <a href="https://dl.acm.org/doi/abs/10.1145/3447548.3467287">KDD'21</a>], and adversarial attacks [<a href="https://dl.acm.org/doi/abs/10.1145/3580305.3599333">KDD'23</a>, <a href="https://dl.acm.org/doi/10.1145/3394486.3403089">KDD'20</a>].</p>
+      
 </div>
 
 
 <div class="docs-section" id="news">
-    <h4>News</h4>
+    <h3><b>News</b></h3>
     <ul>
-        <li>[12/2023] One paper on federated learning accepted to AAAI'24. See you in Vancouver!</li>
-        <li>[09/2023] Two papers on federated learning accepted to NeurIPS'23. </li>
-        <li>[09/2023] Finished internship at Amazon Search, Palo Alto, CA as an Applied Scientist Intern working on LLM-empowered product widget title generation.</li>
-        <li>[08/2023] Attended KDD'23 and presented our <a href="https://dl.acm.org/doi/abs/10.1145/3580305.3599333">paper</a> in Long Beach, CA.</li>
-        <li>[05/2023] One paper on adversarial training accepted to KDD'23.</li>
-        <li>[02/2023] Attended AAAI'23 for our paper on model interpretability in Washington, DC.</li>
-        <li>[10/2022] Attended CIKM'22 for <a href="https://sites.google.com/view/fedgraph2022">FedGraph</a> workshop in Atlanta, GA</li>
-        <li>[09/2022] Finished internship at Meta AI, Menlo Park, CA as a Research Scientist Intern working on data augmentation of IG Reels ranking models.</li>
-        <li>[08/2022] Attended KDD'22 and presented our <a href="https://dl.acm.org/doi/abs/10.1145/3534678.3539298">paper</a> on AutoML in Washington, DC.</li>
+        <li>[12/2023] Attended <b>NeurIPS'23</b> for our papers on 1) <a href="https://arxiv.org/abs/2310.03613">minimax optimization</a> 2) <a href="https://arxiv.org/abs/2310.02524">conditional stochastic optimization</a>, in federated learning settings, in New Orleans, LA. </li>
+        <li>[12/2023] One paper on federated learning accepted to <b>AAAI'24</b>. See you in Vancouver!</li>
+        <li>[09/2023] Two papers on federated learning accepted to <b>NeurIPS'23</b>. </li>
+        <li>[09/2023] Finished internship at <b>Amazon Search</b>, Palo Alto, CA as an Applied Scientist Intern working on LLM-empowered product widget title generation.</li>
+        <li>[08/2023] Attended <b>KDD'23</b> and presented our paper on <a href="https://dl.acm.org/doi/abs/10.1145/3580305.3599333">adversarial training</a> in Long Beach, CA.</li>
+        <li>[05/2023] One paper on adversarial training accepted to <b>KDD'23</b>.</li>
+        <li>[02/2023] Attended <b>AAAI'23</b> for our paper on model interpretability in Washington, DC.</li>
+        <li>[10/2022] Attended <b>CIKM'22</b> for <a href="https://sites.google.com/view/fedgraph2022">FedGraph</a> workshop in Atlanta, GA</li>
+        <li>[09/2022] Finished internship at <b>Meta AI</b>, Menlo Park, CA as a Research Scientist Intern working on data augmentation of IG Reels ranking models.</li>
+        <li>[08/2022] Attended <b>KDD'22</b> and presented our paper on <a href="https://dl.acm.org/doi/abs/10.1145/3534678.3539298">AutoML</a> in Washington, DC.</li>
     </ul>
     </div>
 
 
+
+    <style>
+      /* Add a style block to include CSS styles */
+      .authors a[href]:not(.button) {
+        text-decoration: none; /* Remove the underline for links with href attribute */
+        color: #007bff; /* Set the link color */
+      }
+    </style>
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
-  <h4>Publications [<a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>]</h4>
 
+  <h3><b>Publications</b> [<a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>]</h3>
+  <!-- <h4>Publications [<a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>]</h4> -->
+
+  <h6>* indicates equal contribution.</h6>
   
-  * indicates equal contribution.
   </p>
 
   <ul class="tab-nav">
@@ -46,8 +61,18 @@ title: Home
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
       {% for paper in selected_papers %}
         <div class="paper">
+          <!-- <h6 class="title"><b>{{ paper.title }}</b></h6> -->
           <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
+          <div class="authors">
+            {% for author in paper.authors %}
+              {% if author.link %}
+                <a href="{{ author.link }}" target="_blank">{{ author.name }}</a>
+              {% else %}
+                {{ author.name }}
+              {% endif %}
+              {% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </div>
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
             {% if paper.paper_pdf %}
@@ -82,8 +107,18 @@ title: Home
     <div class="tab-pane" id="papers-all">
       {% for paper in site.data.publications.papers %}
         <div class="paper">
+          <!-- <h6 class="title"><b>{{ paper.title }}</b></h6> -->
           <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
+          <div class="authors">
+            {% for author in paper.authors %}
+              {% if author.link %}
+                <a href="{{ author.link }}" target="_blank">{{ author.name }}</a>
+              {% else %}
+                {{ author.name }}
+              {% endif %}
+              {% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </div>
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
             {% if paper.paper_pdf %}
@@ -118,7 +153,7 @@ title: Home
 </div>
 
 <!-- ========== RESUME ========== -->
-<div class="docs-section" id="Vita">
+<div class="docs-section" id="vita">
   <h4>Vitæ</h4>
 
   <!-- The Timeline -->
