@@ -1,0 +1,36 @@
+experiences:
+
+- place: "Amazon Search, CA"
+  time: "May 2023 - Sep 2023"
+  title: "Applied Scientist, Intern"
+  subtitle: "LLM-empowered Product Widget Title Generation Models"
+  category: "work"
+
+- place: "Meta AI, CA"
+  time: "May 2022 - Aug 2022"
+  title: "Research Scientist, Intern"
+  subtitle: "Data Augmentation Framework of Instagram Reels Ranking Models"
+  category: "work"
+
+- place: "University of Virginia, VA"
+  time: "Jan 2019 - present"
+  title: "Ph.D. in Computer Science"
+  subtitle: "Research Interests: Optimization, Federated Learning, AutoML, and Adversarial ML <br/> M.S. in Computer Science, Dec 2022 <br/>"
+  category: "school"
+
+- place: "University of Virginia, VA"
+  time: "Aug 2016 – Jan 2019"
+  title: "Ph.D. Program in Statistics"
+  subtitle: "Research Interests: Brain Imaging Data Analysis, Bayesian Modeling <br/> M.S. in Statistics, May 2018 <br/>"
+  category: "school"
+
+- place: "National University of Singapore"
+  time: "Jan-Jun 2015"
+  title: "Exchange Student"
+  category: "school"
+
+- place: "Fudan University, Shanghai, China"
+  time: "2012 - 2016"
+  title: "B.S. in Mathematics"
+  subtitle: "Minor in Economics"
+  category: "school"
