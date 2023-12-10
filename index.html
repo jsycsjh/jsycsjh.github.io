@@ -70,9 +70,9 @@ title: Home
               {% else %}
                 {{ author.name }}
               {% endif %}
-              {% unless forloop.last %}, {% endunless %}
+              {% unless forloop.last %}{% endunless %}{% if forloop.last %}{% else %}, {% endif %}
             {% endfor %}
-          </div>
+          </div>          
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
             {% if paper.paper_pdf %}
