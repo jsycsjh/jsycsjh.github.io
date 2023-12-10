@@ -27,6 +27,7 @@ papers:
       link: "http://www.cs.umd.edu/~heng/"
   venue: "<b>NeurIPS'23</b>: Advances in Neural Information Processing Systems. 2023."
   paper_pdf: "/assets/publications/2023_fedminimax/fed_minimax.pdf"
+  poster: "/assets/publications/2023_fedminimax/NeurIPS23-FedMinimax.pdf"
   selected: y
 
 - title: "Federated Conditional Stochastic Optimization"
@@ -45,6 +46,7 @@ papers:
       link: "http://www.cs.umd.edu/~heng/"
   venue: "<b>NeurIPS'23</b>: Advances in Neural Information Processing Systems. 2023."
   paper_pdf: "/assets/publications/2023_fedcso/fed_cso.pdf"
+  poster: "/assets/publications/2023_fedcso/NeurIPS23-FedCSO.pdf"
   selected: y
 
 - title: "Enhance Diffusion to Improve Robust Generalization"
