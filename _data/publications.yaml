@@ -11,6 +11,7 @@ papers:
     - name: "Aidong Zhang"
       link: "https://engineering.virginia.edu/faculty/aidong-zhang"
   venue: "<b>AAAI'24</b>: AAAI Conference on Artificial Intelligence. 2024."
+  paper_pdf: "/assets/publications/2024_aaai_fedgm/2024_aaai_fedgm.pdf"
   selected: y
 
 - title: "Solving a Class of Non-Convex Minimax Optimization in Federated Learning"
